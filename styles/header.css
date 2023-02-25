@@ -1,0 +1,108 @@
+@font-face {
+	font-family: 'Rubik-Black'; 
+    src: url("../assets/fonts/rubik/Rubik-Black.ttf"); 
+}
+@font-face {
+	font-family: 'Rubik-Bold'; 
+    src: url("../assets/fonts/rubik/Rubik-Bold.ttf"); 
+}
+@font-face {
+	font-family: 'Rubik-Light'; 
+    src: url("../assets/fonts/rubik/Rubik-Light.ttf"); 
+}
+@font-face {
+	font-family: 'Rubik-Medium'; 
+    src: url("../assets/fonts/rubik/Rubik-Medium.ttf"); 
+}
+
+
+header{
+    display: flex;
+    border: 1px solid rgb(186, 9, 9);
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../assets/img/inpit_background.png");
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+}
+
+.inpit__logo{
+    width: 186px;
+    height: 94px;
+    border-radius: 10px;
+}
+
+.menu__list{
+    width: 800px;
+    color: white;
+    font-size: 21px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__list a{
+    color: rgb(243, 242, 242); 
+}
+
+.menu__list a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.menu__list a:active{
+    color: rgb(251, 179, 179);
+}
+
+.lang, .lang__img{
+    cursor: pointer;
+}
+
+.menu__list{
+    position: relative;
+}
+
+.menu__list>li:hover .applicant__menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.applicant__menu{
+    background-image: url("../assets/img/inpit_background.png");
+    background-size: cover;
+    position: absolute;
+    width: 300px;
+    height: 75px;
+    left: calc(w/2);
+    top: 22px;
+    display: none;
+    padding: 0px 0px 5px 5px;
+    border-top-style: none; 
+    /*border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;*/
+    border-radius: 10px;
+    border: 1px solid rgb(186, 9, 9);
+    opacity: 99%;
+}
+
+.applicant__menu li{
+    margin: 4px 0px 5px 0px;
+}
+
+#lang_changeable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
