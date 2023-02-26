@@ -70,6 +70,7 @@ header{
 
 .menu__list{
     position: relative;
+    z-index: 1;
 }
 
 .menu__list>li:hover .applicant__menu{

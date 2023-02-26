@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/slider.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="icon" href="assets/img/inpit_sign_i.png" type="image/png">
     <title>sstu</title>
 </head>
 
-<body>
+<body onload="addPoints()">
     <header>
         <div>
             <a href="index.html">
@@ -36,17 +37,30 @@
                     <a href="contacts.html">Контакты</a>
                 </li>
                 <li>
-                    <a href="#">Тесты</a>
+                    <a href="#">Тест</a>
                 </li>
                 <ul></ul>
                 <li id="lang_changeable" onclick="changeLang()">
-                    <img id = "lang_img" src="assets/img/ru.png" alt="ru" class="lang__img">
-                    <span id="lang">RU</span>
+                    <img id="lang_img" src="assets/img/uk.png" alt="en" class="lang__img">
+                    <span id="lang">EN</span>
                 </li>
             </ul>
         </nav>
     </header>
+    <div class="content">
+        <div class="slider">
+            <img id='slider__content' src="assets/img/slider1.JPG" alt="slider photo">
+            <img id='slider__arrow__left' src="assets/img/slider__arrow__left.png" alt="slider arrow"
+                onclick="changeSlide(null,this.id)">
+            <img id='slider__arrow__right' src="assets/img/slider__arrow__right.png" alt="slider arrow"
+                onclick="changeSlide(null,this.id)">
+        </div>
+        <div id='points'>
+
+        </div>
+    </div>
     <script src="src/lang.js"></script>
+    <script src="src/slider.js"></script>
 </body>
 
 </html>

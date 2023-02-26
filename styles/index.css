@@ -1,0 +1,18 @@
+.content{
+    /*border: 1px solid black;*/
+    /*#87cefa3d;*/
+    
+    background-color: #87cefa2f;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+
+
+}
+
+body{
+    background-color: #87cefa1f;
+    height: 200%;
+}
+

@@ -1,0 +1,62 @@
+.slider{
+    position: relative;
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1.5px solid black;
+    border-radius: 7px;
+}
+
+#slider__content{
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;	
+}
+
+#slider__arrow{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#slider__arrow__left, #slider__arrow__right{
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    width: 60px;
+    opacity: 90%;
+}
+
+#slider__arrow__left{
+    left: 3%;
+}
+
+#slider__arrow__right{
+    left: 92%;
+}
+
+#slider__arrow__left:hover, #slider__arrow__right:hover{
+    opacity: 100%;
+}
+
+#points{
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.point{
+    background-color: #36393E;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+}
+
+.active__point{
+    color: rgb(154, 29, 29);
+}
