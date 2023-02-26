@@ -1,0 +1,34 @@
+.block {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    height: auto;
+}
+
+.block__column{
+    max-width: 300px;
+    height: auto;
+    padding: 9px;
+    font-size: 18px;
+    margin: 10px;
+    background-color: hsla(203, 92%, 75%, 0.122);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.bacc__info span{
+    display: block;
+    margin: 5px;
+}
+
+.content{
+    background-color: #87cefa2f;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+
+body{
+    background-color: #87cefa1f;
+}

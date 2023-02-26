@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/content.css">
     <link rel="icon" href="assets/img/inpit_sign_i.png" type="image/png">
     <title>sstu</title>
 </head>
@@ -34,10 +36,10 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="contacts.html">Контакты</a>
+                    <a href="#info">Контакты</a>
                 </li>
                 <li>
-                    <a href="#">Тест</a>
+                    <a href="test.html">Тест</a>
                 </li>
                 <ul></ul>
                 <li id="lang_changeable" onclick="changeLang()">
@@ -56,9 +58,35 @@
                 onclick="changeSlide(null,this.id)">
         </div>
         <div id='points'>
-
         </div>
+        <a href="test.html" class="test__button-link">
+            <div class="test__button">
+                <span>Пройти тест</span>
+            </div>
+        </a>
+        <p class="test__encourage">
+            Пройди тест и узнай, какое направление в институте тебе подходит!
+        </p>
     </div>
+    <footer>
+        <div id="info">
+            <span>
+                Институт прикладных информационных технологий и коммуникаций
+            </span>
+            <span>
+                Политехническая, 122, 5 корпус СГТУ, офис 102
+            </span>
+            <span>
+                +7 (8452) 99-87-17
+            </span>
+            <span>
+                +7 (8452) 99-87-16
+            </span>
+            <span>
+                © 1998-2023 Институт прикладных информационных технологий и коммуникаций
+            </span>
+        </div>
+    </footer>
     <script src="src/lang.js"></script>
     <script src="src/slider.js"></script>
 </body>

@@ -1,0 +1,23 @@
+.content{
+    background-color: #87cefa2f;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content ul{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsla(203, 92%, 75%, 0.122);
+}
+
+body{
+    background-color: #87cefa1f;
+    height: 100%;
+}

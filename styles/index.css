@@ -1,18 +1,53 @@
-.content{
-    /*border: 1px solid black;*/
-    /*#87cefa3d;*/
-    
-    background-color: #87cefa2f;
-    width: 80%;
-    height: 100%;
+.test__encourage{
+    margin-top: 20vh;
+    font-size: 22px;
+    font-family: 'Rubik-light';
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+}
+
+.test__button{
+    color: rgb(46, 46, 46);
+    background: url('../assets/img/test__button.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-family: 'Rubik-Medium';
+    width: 100vh;
+    height: 50vh;
+    margin: 0 auto;	
+    margin-top: 30vh;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 90%;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+}
+
+.test__button-link{
+    display: block;
+    width: min-content;
     margin: 0 auto;
-    border: 1px solid red;
-
-
 }
 
-body{
-    background-color: #87cefa1f;
-    height: 200%;
+
+.test__button:hover{
+    opacity: 100%;
+    transition: 0.5s;
+    color: black;
+    scale: 101%;
 }
 
+
+footer{
+    background: url('../assets/img/inpit_background.png');
+    object-fit: cover;	
+    height: 125px;
+}

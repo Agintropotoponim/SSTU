@@ -6,6 +6,10 @@
     margin-top: 20px;
     border: 1.5px solid black;
     border-radius: 7px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
 }
 
 #slider__content{

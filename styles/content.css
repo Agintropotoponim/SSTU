@@ -1,0 +1,11 @@
+.content{
+    background-color: hsla(203, 92%, 75%, 0.184);
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: hsla(203, 92%, 75%, 0.122);
+    height: 200%;
+}
