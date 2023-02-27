@@ -1,0 +1,84 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(203, 92%, 75%, 0.184);
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #87cefa1f;
+}
+
+.quest{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsla(203, 92%, 75%, 0.184);
+    border: 1px solid black;
+    width: 30%;
+    height: 20%;
+    border-radius: 5px;
+}
+
+
+
+#quest__title{
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+}
+
+#quest__input{
+    display: flex;
+    justify-content: space-around;
+    min-width: 70%;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+}
+
+.quest__button-frame{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.quest__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+}
+
+.quest__button:hover{
+    background-color:antiquewhite;
+    transition: 0.3s;
+}
+
+#error__message{
+    color: red;
+}
+
+.disappear{
+    display: none;
+}

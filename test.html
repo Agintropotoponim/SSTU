@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/test.css">
+    <link rel="icon" href="assets/img/inpit_sign_i.png" type="image/png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sstu</title>
 </head>
-<body>
-    
+
+<body onload="changeQuest()">
+    <header>
+        <div>
+            <a href="index.html">
+                <img src="assets/img/inpit_logo.png" alt="inpit logo" class="inpit__logo">
+            </a>
+        </div>
+        <nav class="menu__body">
+            <ul class="menu__list">
+                <li>
+                    <a href="baccalaureate.html"> Поступающим</a>
+                    <ul class="applicant__menu">
+                        <li>
+                            <a href="baccalaureate.html" class="applicant__menu--text">Абитуриенту</a>
+                        </li>
+                        <li>
+                            <a href="magistracy.html" class="applicant__menu--text">Магистратура</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="test.html">Тест</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="quest" id="quest__frame">
+            <p id="quest__title"></p>
+            <div id="quest__input">
+
+            </div>
+            <div class="quest__button-frame">
+                <div onclick="beginAgain()" class="quest__button">Сброс</div><div onclick="changeQuest()" id="change__button" class="quest__button">Далее</div>
+            </div>
+        </div>
+    </div>
+    <script src="src/test.js"></script>
 </body>
+
 </html>
