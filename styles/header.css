@@ -15,9 +15,16 @@
     src: url("../assets/fonts/rubik/Rubik-Medium.ttf"); 
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 600px;
+}
 
 header{
     display: flex;
+    width: 100%;
     border: 1px solid rgb(186, 9, 9);
     justify-content: space-around;
     align-items: center;
@@ -89,8 +96,6 @@ header{
     display: none;
     padding: 0px 0px 5px 5px;
     border-top-style: none; 
-    /*border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;*/
     border-radius: 10px;
     border: 1px solid rgb(186, 9, 9);
     opacity: 99%;
@@ -106,4 +111,5 @@ header{
     align-items: center;
     cursor: pointer;
 }
+
 

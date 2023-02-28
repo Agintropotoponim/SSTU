@@ -20,15 +20,14 @@ body{
     align-items: center;
     background-color: hsla(203, 92%, 75%, 0.184);
     border: 1px solid black;
-    width: 30%;
+    width: 40%;
     height: 20%;
     border-radius: 5px;
+    padding: 10px;
 }
 
-
-
 #quest__title{
-    font-size: 16px;
+    font-size: 24px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     user-select: none;
@@ -38,7 +37,9 @@ body{
 }
 
 #quest__input{
+    font-size: 22px;
     display: flex;
+    text-align: center;
     justify-content: space-around;
     min-width: 70%;
     user-select: none;
@@ -67,16 +68,13 @@ body{
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none; 
-    -ms-user-select: none; 
+    -ms-user-select: none;
+    font-size: 24px;
 }
 
 .quest__button:hover{
     background-color:antiquewhite;
     transition: 0.3s;
-}
-
-#error__message{
-    color: red;
 }
 
 .disappear{

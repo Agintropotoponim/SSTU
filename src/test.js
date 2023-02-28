@@ -132,7 +132,7 @@ const questsCommon = [
 
     },
     {
-        questTitle: 'Серди сдаваемых на ЕГЭ предметах есть профильная математика?',
+        questTitle: 'Серди сдаваемых на ЕГЭ предметов есть профильная математика?',
         questAnswer: ['Да', 'Нет'],
         questType: 'mathEx',
         distinguish: true

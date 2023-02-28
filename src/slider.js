@@ -52,7 +52,7 @@ const changeSlide = (index, arrow) => {
 const addPoints = () => {
 
     const $box = document.querySelector('#points')
-    $box.style.minWidth = slides.length * 30 + 'px';
+    $box.style.maxWidth = slides.length * 30 + 'px';
 
     slides.forEach(e => {
         const tmp = document.createElement('div');

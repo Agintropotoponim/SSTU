@@ -1,0 +1,280 @@
+@media(min-width: 1200px){
+    #slider__arrow__left, #slider__arrow__right{
+        width: 30px;
+    }
+    .test__button span{
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width:992px){
+    #slider__arrow__left, #slider__arrow__right{
+
+        width: 30px;
+    }
+    #slider__arrow__right{
+        left: 90%;
+    }
+    .slider{
+        height: 400px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 767px){
+
+    #slider__arrow__left, #slider__arrow__right{
+        position: absolute;
+        cursor: pointer;
+        top: 50%;
+        width: 30px;
+        opacity: 90%;
+    }
+    #slider__arrow__right{
+        left: 90%;
+    }
+    .slider{
+        height: 400px;
+    }
+    nav{
+        width: 65%;
+        height: 100%;
+    }
+
+    .menu__list{
+        font-size: 32px;
+    }
+
+    .applicant__menu{
+        width: 400px;
+        top: 35px;
+    }
+
+    .burger__button{
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 120px;
+        height: 45px;
+    }
+    
+    .burger__line{
+        display: block;
+        background-color: white;
+        width: 50%;
+        height: 10%;
+        border-radius: 10px;
+    }
+
+    .menu__list{
+        display: none;
+        position: absolute;
+    }
+
+    .burger__button:hover .menu__list{
+        display: block;
+        top: 50px;
+        background-image: url("../assets/img/inpit_background.png");
+        background-size: cover;
+        position: absolute;
+        width: 300px;
+        height: auto;
+        left: calc(w/2);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .quest{
+        width: 80%;
+    }
+
+    #quest__input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px){
+    .menu__list{
+        flex-direction: column;
+    }
+    #slider__arrow__left, #slider__arrow__right{
+        top: 50%;
+        width: 30px;
+        opacity: 90%;
+    }
+    #slider__arrow__right{
+        left: 90%;
+    }
+    .slider{
+        height: 400px;
+    }
+
+    .test__button-link{
+        max-height: 20%;
+    }
+    nav{
+        width: 35%;
+        height: 100%;
+    }
+    .burger__button{
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 120px;
+        height: 45px;
+    }
+    
+    .burger__line{
+        display: block;
+        background-color: white;
+        width: 50%;
+        height: 10%;
+        border-radius: 10px;
+    }
+
+    .menu__list{
+        display: none;
+        position: absolute;
+        font-size: 32px;
+    }
+
+    .burger__button:hover .menu__list{
+        display: block;
+        top: 50px;
+        background-image: url("../assets/img/inpit_background.png");
+        background-size: cover;
+        position: absolute;
+        width: 300px;
+        height: auto;
+        left: calc(w/2);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .quest{
+        width: 80%;
+    }
+
+    #quest__input{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 576px) and (min-width: 100px){
+    .slider{
+        height: 300px;
+        width: 90%;
+    }
+    #slider__arrow__left, #slider__arrow__right{
+        top: 50%;
+        width: 20px;
+        opacity: 90%;
+    }
+    #slider__arrow__right{
+        left: 91%;
+    }
+
+    .test__button-link{
+        max-height: 15%;
+    }
+
+    .test__button span{
+        color: white;
+    }
+
+    .test__encourage{
+        font-size: 30px;
+    }
+
+    .menu__list{
+        flex-direction: column;
+        border-radius: 10px;
+        font-size: 32px;
+    }
+
+    .test__button{
+        text-align: center;
+    }
+
+    .menu__list li{
+        display: block;
+    }
+    nav{
+        width: 35%;
+        height: 100%;
+    }
+    footer{
+        min-height: 160px;
+    }
+
+    .applicant__menu{
+
+        width: 200px;
+   
+        left: 0px;
+
+    }
+
+    .menu__list>li:hover .applicant__menu{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .burger__button{
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 120px;
+        height: 45px;
+    }
+    
+    .burger__line{
+        display: block;
+        background-color: white;
+        width: 50%;
+        height: 10%;
+        border-radius: 10px;
+    }
+
+    .menu__list{
+        display: none;
+        position: absolute;
+    }
+
+    .burger__button:hover .menu__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 50px;
+        background-image: url("../assets/img/inpit_background.png");
+        background-size: cover;
+        position: absolute;
+        width: min-content;
+        height: auto;
+        right: 20%;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .quest{
+        width: 100%;
+        height: auto;
+    }
+
+    #quest__input{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .quest__button{
+        font-size: 20px;
+    }
+}

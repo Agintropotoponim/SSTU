@@ -11,49 +11,55 @@
     <link rel="stylesheet" href="styles/slider.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/media.css">
     <link rel="icon" href="assets/img/inpit_sign_i.png" type="image/png">
     <title>sstu</title>
 </head>
 
 <body onload="addPoints()">
     <header>
-        <div>
-            <a href="index.html">
-                <img src="assets/img/inpit_logo.png" alt="inpit logo" class="inpit__logo">
-            </a>
-        </div>
+        <a href="index.html" class="block">
+            <img src="assets/img/inpit_logo.png" alt="inpit logo" class="inpit__logo">
+        </a>
         <nav class="menu__body">
-            <ul class="menu__list">
-                <li>
-                    <a href="baccalaureate.html"> Поступающим</a>
-                    <ul class="applicant__menu">
-                        <li>
-                            <a href="baccalaureate.html" class="applicant__menu--text">Абитуриенту</a>
-                        </li>
-                        <li>
-                            <a href="magistracy.html" class="applicant__menu--text">Магистратура</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#info">Контакты</a>
-                </li>
-                <li>
-                    <a href="test.html">Тест</a>
-                </li>
-                <ul></ul>
-            </ul>
+            <div class="burger__button">
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+                <ul class="menu__list">
+                    <li>
+                        <a href="baccalaureate.html"> Поступающим▼ <span class="down__arrow"></span></a>
+                        <ul class="applicant__menu">
+                            <li>
+                                <a href="baccalaureate.html" class="applicant__menu--text">Абитуриенту</a>
+                            </li>
+                            <li>
+                                <a href="magistracy.html" class="applicant__menu--text">Магистратура</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#info">Контакты</a>
+                    </li>
+                    <li>
+                        <a href="test.html">Тест</a>
+                    </li>
+                    <ul></ul>
+                </ul>
+            </div>
         </nav>
     </header>
     <div class="content">
-        <div class="slider">
-            <img id='slider__content' src="assets/img/slider1.JPG" alt="slider photo">
-            <img id='slider__arrow__left' src="assets/img/slider__arrow__left.png" alt="slider arrow"
-                onclick="changeSlide(null,this.id)">
-            <img id='slider__arrow__right' src="assets/img/slider__arrow__right.png" alt="slider arrow"
-                onclick="changeSlide(null,this.id)">
-        </div>
-        <div id='points'>
+        <div>
+            <div class="slider">
+                <img id='slider__content' src="assets/img/slider1.JPG" alt="slider photo">
+                <img id='slider__arrow__left' src="assets/img/slider__arrow__left.png" alt="slider arrow"
+                    onclick="changeSlide(null,this.id)">
+                <img id='slider__arrow__right' src="assets/img/slider__arrow__right.png" alt="slider arrow"
+                    onclick="changeSlide(null,this.id)">
+            </div>
+            <div id='points'>
+            </div>
         </div>
         <a href="test.html" class="test__button-link">
             <div class="test__button">
@@ -86,4 +92,5 @@
     <script src="src/lang.js"></script>
     <script src="src/slider.js"></script>
 </body>
+
 </html>

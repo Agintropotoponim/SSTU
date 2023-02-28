@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/test.css">
+    <link rel="stylesheet" href="styles/media.css">
     <link rel="icon" href="assets/img/inpit_sign_i.png" type="image/png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,28 +15,32 @@
 
 <body onload="changeQuest()">
     <header>
-        <div>
-            <a href="index.html">
-                <img src="assets/img/inpit_logo.png" alt="inpit logo" class="inpit__logo">
-            </a>
-        </div>
+        <a href="index.html" class="block">
+            <img src="assets/img/inpit_logo.png" alt="inpit logo" class="inpit__logo">
+        </a>
         <nav class="menu__body">
-            <ul class="menu__list">
-                <li>
-                    <a href="baccalaureate.html"> Поступающим</a>
-                    <ul class="applicant__menu">
-                        <li>
-                            <a href="baccalaureate.html" class="applicant__menu--text">Абитуриенту</a>
-                        </li>
-                        <li>
-                            <a href="magistracy.html" class="applicant__menu--text">Магистратура</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="test.html">Тест</a>
-                </li>
-            </ul>
+            <div class="burger__button">
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+                <ul class="menu__list">
+                    <li>
+                        <a href="baccalaureate.html"> Поступающим▼ <span class="down__arrow"></span></a>
+                        <ul class="applicant__menu">
+                            <li>
+                                <a href="baccalaureate.html" class="applicant__menu--text">Абитуриенту</a>
+                            </li>
+                            <li>
+                                <a href="magistracy.html" class="applicant__menu--text">Магистратура</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="test.html">Тест</a>
+                    </li>
+                    <ul></ul>
+                </ul>
+            </div>
         </nav>
     </header>
     <div class="content">
@@ -45,7 +50,8 @@
 
             </div>
             <div class="quest__button-frame">
-                <div onclick="beginAgain()" class="quest__button">Сброс</div><div onclick="changeQuest()" id="change__button" class="quest__button">Далее</div>
+                <div onclick="beginAgain()" class="quest__button">Сброс</div>
+                <div onclick="changeQuest()" id="change__button" class="quest__button">Далее</div>
             </div>
         </div>
     </div>
